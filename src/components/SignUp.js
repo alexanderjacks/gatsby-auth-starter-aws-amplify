@@ -43,7 +43,7 @@ class SignUp extends React.Component {
       navigate("/app/login")
     } catch (err) {
       this.setState({ error: err })
-      console.log('error confirming signing up...', err)
+      console.log('error confirming signing up... Check how you typed in your text number, it must look like +1xxxxxxxxxx', err)
     }
   }
 
@@ -79,7 +79,7 @@ class SignUp extends React.Component {
               />
               <input
                 onChange={this.handleUpdate}
-                placeholder='Phone Number'
+                placeholder='Texting Number as +1xxxxxxxxxx'
                 name='phone_number'
                 value={this.state.phone_number}
                 style={styles.input}
