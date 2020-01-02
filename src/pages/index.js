@@ -9,8 +9,10 @@ Amplify.configure(config)
 
 const IndexPage = () => (
   <Layout>
-    <h1>Top 100 Cryptocurrency</h1>
-    <p>We can help you find the next big thing</p>
+    <h1>Huzzah!</h1>
+    <p>Eighth Day of Xmas&nbsp;
+    <span>🎄</span>
+    </p>
     <p>Create a new account: <Link to="/app/signup">Sign Up</Link></p>
     <Link to="/app/login">Sign In</Link><br />
     <Link to="/app/home">Home</Link><br />
